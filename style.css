@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Source+Sans+Pro:ital,wght@0,400;1,700&display=swap');
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+    padding: 0rem 1rem;
+    background-color: #5f591b;
+}
+textarea{
+   width: 50%;
+   padding: 1rem;
+   margin-left: auto;
+   margin-right: auto;
+   height: 10vh;
+   display: block;
+   border: 1px solid black;
+}
+h1{
+   color:white;
+}
+#output{
+   width: 50%;
+   padding: 1rem;
+   margin: 0 auto;
+   height: 10vh;
+   border: 1px solid black;
+}
+.img{
+   width: 15%;
+}
+div{
+   text-align: center;
+}
+
+#btn-translate
+{
+   padding:1rem;
+   background-color: #5f591b;
+   color: white;
+   font-weight: bold;
+   margin-top: 1rem;
+   border-radius: 10px;
+   cursor: pointer;
+   border:0;
+   font-size: 1rem;
+}
