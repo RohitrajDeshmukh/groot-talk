@@ -2,10 +2,17 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
 }
-.container{
-    padding: 0rem 1rem;
-    background-color: #5f591b;
+.container-center{
+   max-width: 600px;
+   margin: auto;
+   border-radius: 10px;
+   padding: 0rem 1rem;
+   background-color: #5f591b;
 }
+p{
+   padding-bottom: 10px;
+}
+
 textarea{
    width: 50%;
    padding: 1rem;
@@ -13,6 +20,7 @@ textarea{
    margin-right: auto;
    height: 10vh;
    display: block;
+   border-radius: 10px;
    border: 1px solid black;
 }
 h1{
@@ -24,12 +32,17 @@ h1{
    margin: 0 auto;
    height: 10vh;
    border: 1px solid black;
+   border-radius: 10px;
 }
 .img{
    width: 15%;
 }
 div{
    text-align: center;
+}
+h3{
+   color: white;
+   padding-top: 10px;
 }
 
 #btn-translate
